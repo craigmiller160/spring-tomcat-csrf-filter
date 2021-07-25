@@ -11,6 +11,37 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+        <spring.context.version>5.3.9</spring.context.version>
+        <spring.boot.version>2.5.3</spring.boot.version>
+        <tomcat.csrf.version>1.0.0-SNAPSHOT</tomcat.csrf.version>
+        <javax.servlet.version>4.0.1</javax.servlet.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.context.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.craigmiller160</groupId>
+            <artifactId>tomcat-csrf-filter</artifactId>
+            <version>${tomcat.csrf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
