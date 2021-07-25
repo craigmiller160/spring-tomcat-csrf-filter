@@ -37,6 +37,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>io.craigmiller160</groupId>
             <artifactId>tomcat-csrf-filter</artifactId>
             <version>${tomcat.csrf.version}</version>
