@@ -46,7 +46,7 @@
             <groupId>io.craigmiller160</groupId>
             <artifactId>tomcat-csrf-filter</artifactId>
             <version>${tomcat.csrf.version}</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
