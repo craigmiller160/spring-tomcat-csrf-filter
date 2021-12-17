@@ -24,8 +24,8 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
-        <spring.context.version>5.3.9</spring.context.version>
-        <spring.boot.version>2.5.3</spring.boot.version>
+        <spring.context.version>5.3.3</spring.context.version>
+        <spring.boot.version>2.6.1</spring.boot.version>
         <tomcat.csrf.version>1.0.0-SNAPSHOT</tomcat.csrf.version>
         <javax.servlet.version>4.0.1</javax.servlet.version>
     </properties>
